@@ -1,0 +1,16 @@
+{
+  "name": "CW-Frontend",
+  "version": "1.0.0",
+  "description": "CW-Frontend documents",
+  "main": "index.js",
+  "author": "Khanh Le",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.1"
+  }
+}

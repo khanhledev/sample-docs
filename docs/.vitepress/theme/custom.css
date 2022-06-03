@@ -1,0 +1,45 @@
+:root {
+  --c-brand: #0091EB;
+  --c-brand-light: #0091EB;
+}
+
+.custom-block.tip {
+  border-color: var(--c-brand-light);
+}
+
+.DocSearch {
+  --docsearch-primary-color: var(--c-brand) !important;
+}
+
+img[alt='theme-components'] {
+  width: 50%;
+}
+
+.style-example {
+  border-radius: 7px;
+  margin: 1em 0;
+  padding: 1.2em;
+  position: relative;
+  border: 1px solid transparent;
+  border-top: 5px solid transparent;
+}
+
+.style-example-bad {
+  background: #f7e8e8;
+  border-color: #dd9c9c;
+}
+
+.style-example-good {
+  background: #d7efd7;
+  border-color: #8ed28e;
+}
+
+.style-example h4 {
+  display: flex;
+  align-items: center;
+}
+
+.style-example img {
+  width: 12px;
+  margin-right: 6px;
+}
