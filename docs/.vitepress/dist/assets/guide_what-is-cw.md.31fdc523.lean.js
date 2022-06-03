@@ -1,0 +1,1 @@
+import{_ as e,o as i,c as t,f as a}from"./app.f2779f0d.js";const h='{"title":"Overview","description":"","frontmatter":{},"headers":[],"relativePath":"guide/what-is-cw.md","lastUpdated":1654248370000}',s={name:"guide/what-is-cw.md"},n=a("",3),u=[n];function o(r,l,c,d,m,p){return i(),t("div",null,u)}var f=e(s,[["render",o]]);export{h as __pageData,f as default};
