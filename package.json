@@ -1,6 +1,8 @@
 {
   "name": "CW-Frontend",
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/khanhledev",
   "description": "CW-Frontend documents",
   "main": "index.js",
   "author": "Khanh Le",
@@ -8,9 +10,12 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "predeploy": "vitepress build docs",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "vitepress": "^1.0.0-alpha.1"
   }
 }
