@@ -6,18 +6,17 @@ export default {
   lastUpdated: true,
 
   themeConfig: {
+    repo: "https://github.com/khanhledev/sample-docs.git",
+    docsRepo: "https://github.com/khanhledev/sample-docs.git",
+    docsDir: "docs",
+    docsBranch: "master",
     nav: nav(),
 
     sidebar: {
       "/guide/": sidebarGuide(),
     },
 
-    editLink: {
-      repo: "vuejs/vitepress",
-      branch: "main",
-      dir: "docs",
-      text: "Edit this page on GitHub",
-    },
+    editLink: false,
 
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
